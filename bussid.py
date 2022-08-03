@@ -42,8 +42,8 @@ def pass_mission():
 	except Exception as e:
 		pass
 
-auth = input('Auth token: ')
+auth = input('Masukin Auth :  ')
 headers['X-Authorization'] = auth	
 while True:
 	pass_mission()
-	time.sleep(4)
+	time.sleep(0)
